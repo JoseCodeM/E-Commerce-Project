@@ -1,0 +1,232 @@
+
+html, body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #ffd4a7;
+}
+
+.navbar {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    line-height: 50px;
+    margin-top: 0;
+}
+
+a:link {
+    color: black;
+}
+a:visited {
+    color: black;
+}
+
+hr {
+    border:none;
+    height: 20px;
+    width: 100%;
+    height: 50px;
+    margin-top: 0;
+    border-bottom: 1px solid #1f1209;
+    box-shadow: 0 20px 20px -20px #333;
+    margin: -50px auto 10px; 
+  }
+
+.hero-img {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Images/Cactus4.jpeg");
+  
+    /* Set a specific height */
+    height: 80%;
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.logo{
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+}
+
+.logo > img {
+    width: 350px;
+} 
+
+.animate__animated.animate__bounceIn {
+    --animate-duration: 5s;
+  }
+
+.footerbar {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin-top: 50px;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* Products styling v*/
+.hero-image2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Images/CactusShop3.jpeg");
+  
+    /* Set a specific height */
+    height: 80%;
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.Shop {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.item {
+    font-family: sans-serif;
+    text-align: center;
+    border: 2px solid black;
+}
+
+button {
+    background: #ff451b;
+    font-family: inherit;
+    padding: 0.5em 1.0em;
+    font-weight: 900;
+    font-size: 15px;
+    border: 3px solid black;
+    border-radius: 0.5em;
+    box-shadow: 0.1em 0.1em;
+    margin-bottom: 10px;
+   }
+   
+   button:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em;
+   }
+   
+   button:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em;
+   }
+
+.footerbar2 {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/* Contact Page */
+.contact-image {
+        /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.0)), url("/Images/CactusContactFull.jpeg");
+        height: 80%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        display: flex;
+}
+
+
+
+.Form-area {
+    display: flex;
+    background: rgba(0, 0, 0, 0.7);
+    width: 800px;
+    height: auto;
+    margin: auto;
+    color: white;
+}
+
+.msg-area {
+    display: flex;
+    flex-direction: column;
+    order: 2;
+}
+
+.msg-area > textarea {
+    flex: 1;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.details-area {
+    padding: 20px;
+}
+
+.details-area input {
+    width: 90%;
+    color: rgb(0, 0, 0);
+    border-radius: 50px ;
+}
+
+.details-area input,
+.details-area button {
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.details-area button {
+    margin-left: 250px;
+}
+
+.footerbar3 {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+
+/* Media Queries */
+
+@media (max-width: 800px) {
+    html, body {
+        margin: 0;
+    }
+
+
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        /* column-gap: 20px;
+        row-gap: 20px; */
+    }
+
+    .item {
+        font-family: sans-serif;
+        font-size: medium;
+        text-align: center;
+    }
+
+    .contact-image {
+        /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.0)), url("/Images/CactusContactFull.jpeg");
+        height: 80%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        display: flex;
+}
+
+}
