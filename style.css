@@ -34,7 +34,7 @@ hr {
 
 .hero-img {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Images/Cactus4.jpeg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./Images/Cactus4.jpeg");
   
     /* Set a specific height */
     height: 80%;
@@ -69,7 +69,7 @@ hr {
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* Products styling v*/
 .hero-image2 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Images/CactusShop3.jpeg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./Images/CactusShop3.jpeg");
   
     /* Set a specific height */
     height: 80%;
@@ -132,7 +132,7 @@ button {
 /* Contact Page */
 .contact-image {
         /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.0)), url("/Images/CactusContactFull.jpeg");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.0)), url("./Images/CactusContactFull.jpeg");
         height: 80%;
         background-position: center;
         background-repeat: no-repeat;
@@ -217,7 +217,7 @@ button {
 
     .contact-image {
         /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.0)), url("/Images/CactusContactFull.jpeg");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.0)), url("./Images/CactusContactFull.jpeg");
         height: 80%;
         background-position: center;
         background-repeat: no-repeat;
